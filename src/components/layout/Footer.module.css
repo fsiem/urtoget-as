@@ -1,0 +1,126 @@
+.footer {
+  background: var(--charcoal);
+  color: var(--stone-pale);
+  margin-top: 80px;
+}
+
+.inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 60px 40px 40px;
+  display: grid;
+  grid-template-columns: 220px 1fr 1fr 1fr 220px;
+  gap: 48px;
+}
+
+.brandName {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: var(--white);
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.brandDesc {
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--stone-light);
+}
+
+.colTitle {
+  font-family: var(--font-body);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--stone-light);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.colLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.colLinks a {
+  font-size: 13px;
+  color: var(--stone-pale);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.colLinks a:hover { color: var(--white); }
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: var(--white);
+  padding: 10px 14px;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input::placeholder { color: var(--stone-light); }
+.input:focus { border-color: var(--gold); }
+
+.subscribeBtn {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0;
+  text-align: right;
+  font-family: var(--font-body);
+  transition: color 0.2s;
+}
+.subscribeBtn:hover { color: var(--gold-light); }
+
+.social {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+.social a {
+  color: var(--stone-light);
+  transition: color 0.2s;
+}
+.social a:hover { color: var(--white); }
+
+.bottom {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 20px 40px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: var(--stone-light);
+}
+
+.bottomLinks {
+  display: flex;
+  gap: 24px;
+}
+.bottomLinks a {
+  color: var(--stone-light);
+  text-decoration: none;
+  transition: color 0.2s;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+.bottomLinks a:hover { color: var(--white); }
